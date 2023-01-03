@@ -1,0 +1,33 @@
+/* Top navbar  */
+.pipeline{
+    padding: 0 6px;
+}
+
+/* Bottom Navbar  */
+.menuItem{
+    position: relative;
+    padding: 16px 10px 16px 10px
+}
+
+.menuItem::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    height: 2px;
+    background-color: black;
+}
+.menuItem:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 100%;
+    transform-origin: center;
+    height: 2px;
+    transition: .5s;
+    background-color: black;
+}
+
