@@ -15,7 +15,7 @@ code {
 
 /* DropDown Styles  */
 .hideDropDown{
-  width: 95%;
+  width: 96%;
   background-color: whitesmoke;
   position: absolute;
   left: 0;
@@ -23,7 +23,7 @@ code {
   height:0vh;
 }
 .showDropDown{
-  width: 95%;
+  width: 96%;
   background-color: whitesmoke;
   position: absolute;
   display: block;

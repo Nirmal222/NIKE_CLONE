@@ -42,6 +42,12 @@ const BottomNav = () => {
   )
 }
 
-const dropDown = []
+const dropDown = {
+  'New & Features': ['New Release', 'SNKRS launch calender', 'Member Access', 'Air Force 1', 'Basic Essentials', 'Football Club Kits', 'Sustainable Materials', 'Sale'],
+  'Shoes': ['Newest Sneakers', 'All Shoes', 'LifeStyle', 'Running', 'Basketball', 'Jordan', 'Football', 'Gym & Training', 'Skateboarding', 'Tennis', 'Sandals & Slides', 'All Sale Shoes'],
+  'Clothing': ['All Clothing', 'Performance Essential', 'Tops and T-Shirts', 'Jerseys and Kits', 'Hoodies and Sweatshirts', 'Jackets and Gilets', 'Pants and Leggins', 'Tracksuits', 'All Sale Clothing'],
+  'Shop': [ {'Shop By Sport':['Running', 'Football', 'Basketball', 'Training', 'Yoga', 'Skateboarding', 'Tennis and Golf']}, { 'Shop By Brands':['Nike SportsWare', 'Nike Lab', 'Nike By You', 'Jordan', 'ACG', 'NBA', 'Nike SB'] } ],
+  'Icons': ['Air Force 1', 'Pegasus', 'Blazer', 'Air Jordan 1', 'Air Max']
+}
 
 export default BottomNav
